@@ -1,6 +1,7 @@
-from integration.connector.BasicConnector import BasicConnector
+from integration.interface.BasicConnector import BasicConnector
 
-class DelimitedFile( BasicConnector ):
+class DelimitedFileConnector( BasicConnector ):
+    
     def getConnection( self ):
         return 'get connection'
 
