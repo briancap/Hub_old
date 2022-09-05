@@ -8,11 +8,12 @@ class BasicConnector( ABC ):
     def getConnection( self ):
         raise NotImplementedError
 
-    '''
+    
     @abstractmethod
     def importAccounts():
         raise NotImplementedError
-
+        
+    '''
     @abstractmethod
     def importGroups():
         raise NotImplementedError

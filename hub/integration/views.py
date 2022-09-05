@@ -5,4 +5,5 @@ from integration.connector.FileConnector import DelimitedFileConnector
 # Create your views here.
 def index(request):
     delimFile = DelimitedFileConnector()
-    return HttpResponse("Hello, world: " + delimFile.getConnection() )
+    delimFile.importAccounts()
+    return HttpResponse("Hello, world: " )
